@@ -275,7 +275,7 @@ var ui = (function() {
         	saveAs(blob, "turtle_snap.png");
         });*/
 
-        img.src = 'assets/img/hud/turtle-logo.png';
+        img.src = 'client/img/hud/turtle-logo.png';
 
 
         var logoWidth = video.clientWidth / 12;
@@ -591,8 +591,8 @@ var ui = (function() {
             $("#navigation-ring-canvas").fadeIn();
             $("#axis1-slider-wrapper").fadeOut();
             $("#axis2-slider-wrapper").fadeOut();
-            $("#right-navigation-cross-img").attr('src', 'assets/img/ui/right-krzyz.svg');
-            $("#turtle-navigation-view-img").attr('src', 'assets/img/ui/right-lazik.svg');
+            $("#right-navigation-cross-img").attr('src', 'client/img/ui/right-krzyz.svg');
+            $("#turtle-navigation-view-img").attr('src', 'client/img/ui/right-lazik.svg');
             amplify.publish("ui->controlCanvas", "set function to DRIVE");
         }
     }
