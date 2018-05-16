@@ -544,11 +544,11 @@ var ui = (function() {
     });
 
     function setBatteryLevel(level) {
-        if (level == 4) $("#battery-level-indicator-img").attr('src', 'assets/img/ui/nav-bar-battery.svg');
-        else if (level == 3) $("#battery-level-indicator-img").attr('src', 'assets/img/ui/nav-bar-battery-3.svg');
-        else if (level == 2) $("#battery-level-indicator-img").attr('src', 'assets/img/ui/nav-bar-battery-2.svg');
-        else if (level == 1) $("#battery-level-indicator-img").attr('src', 'assets/img/ui/nav-bar-battery-1.svg');
-        else $("#battery-level-indicator-img").attr('src', 'assets/img/ui/nav-bar-battery-0.svg');
+        if (level == 4) $("#battery-level-indicator-img").attr('src', 'client/img/ui/nav-bar-battery.svg');
+        else if (level == 3) $("#battery-level-indicator-img").attr('src', 'client/img/ui/nav-bar-battery-3.svg');
+        else if (level == 2) $("#battery-level-indicator-img").attr('src', 'client/img/ui/nav-bar-battery-2.svg');
+        else if (level == 1) $("#battery-level-indicator-img").attr('src', 'client/img/ui/nav-bar-battery-1.svg');
+        else $("#battery-level-indicator-img").attr('src', 'client/img/ui/nav-bar-battery-0.svg');
     }
 
     function grabOrDriveClicked(name) {
